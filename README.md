@@ -30,8 +30,8 @@ To use this project, ensure you have Python 3.x installed. Then, clone the repos
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
-   conda env --create -f uav-biophysical-estimation.yml
-   conda env update -f uav-biophysical-estimation.yml
+   conda env --create -f UAVBiophysicalModelling.yml
+   conda env update -f UAVBiophysicalModelling.yml
 
 
 ## Requirements
