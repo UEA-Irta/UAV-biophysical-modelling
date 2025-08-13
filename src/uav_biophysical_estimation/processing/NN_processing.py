@@ -6,8 +6,7 @@ import time
 from keras.models import Sequential, load_model
 from keras.layers import Dense, Input
 from keras.callbacks import ModelCheckpoint
-from utils.metrics import error_metrics
-
+from ..utils.metrics import error_metrics
 
 class NNProcessor:
     def __init__(self, name, params, predict_config=None):
