@@ -17,12 +17,17 @@ The library provides:
 
 To use this project, ensure you have Python 3.x installed. Then, clone the repository and install the required dependencies.
 
-1. Clone the repository:
+1. Install the repository:
    ```bash
-   git clone https://github.com/UEA-Irta/UAV-biophysical-estimation.git
+   pip install git+https://github.com/UEA-Irta/UAV_biophysical_modelling.git
+   
+
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/UEA-Irta/UAV-biophysical-modelling.git
 
 
-2. Install dependencies:
+3. Install dependencies:
    ```bash
    pip install -r requirements.txt
    conda env --create -f uav-biophysical-estimation.yml
