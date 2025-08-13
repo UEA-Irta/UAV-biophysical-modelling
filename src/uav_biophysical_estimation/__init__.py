@@ -1,5 +1,4 @@
 
-$init = @'
 try:
     from ._version import version as __version__  # written by setuptools_scm (optional)
 except Exception:
