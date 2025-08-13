@@ -5,8 +5,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestRegressor
-from utils.metrics import error_metrics
-
+from ..utils.metrics import error_metrics
 
 
 class RFProcessor:
