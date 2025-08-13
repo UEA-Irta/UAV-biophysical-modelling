@@ -19,12 +19,12 @@ To use this project, ensure you have Python 3.x installed. Then, clone the repos
 
 1. Install the repository:
    ```bash
-   pip install git+https://github.com/UEA-Irta/UAV-biophysical-modelling.git
+   pip install git+https://github.com/UEA-Irta/UAVBiophysicalModelling.git
    
 
 2. Clone the repository:
    ```bash
-   git clone https://github.com/UEA-Irta/UAV-biophysical-modelling.git
+   git clone https://github.com/UEA-Irta/UAVBiophysicalModelling.git
 
 
 3. Install dependencies:
