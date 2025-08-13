@@ -51,7 +51,6 @@ six @ file:///tmp/build/80754af9/six_1644875935023/work
 tensorboard==2.18.0
 tensorboard-data-server==0.7.2
 tensorflow==2.18.0
-tensorflow_intel>=2.18.0
 termcolor==2.5.0
 threadpoolctl @ file:///home/conda/feedstock_root/build_artifacts/threadpoolctl_1714400101435/work
 tornado @ file:///C:/b/abs_7bua0304mj/croot/tornado_1718740122405/work
