@@ -69,6 +69,7 @@ dependencies = [
     "tensorflow==2.18.0",
     "termcolor==2.5.0",
     "threadpoolctl",
+    "openpyxl",
     "tornado",
     "numba==0.61.2",
     "llvmlite>=0.44,<0.45",
