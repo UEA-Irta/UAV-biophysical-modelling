@@ -35,7 +35,7 @@ class NNProcessor:
         model = Sequential()
         model.add(Input(shape=(X_train.shape[1],)))
         if self.depth == 1:
-            model.add(Dense(units=self.neurons, activation=self.activation))
+            model.add(Dense(units=self.neurons[0], activation=self.activation))
         else:
             for i in range(self.depth):
                 model.add(Dense(units=self.neurons[i], activation=self.activation))
