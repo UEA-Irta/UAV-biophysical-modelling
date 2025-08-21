@@ -71,7 +71,7 @@ dependencies = [
     "threadpoolctl",
     "tornado",
     "numba==0.61.2",
-    "llvmlite>=0.44,<0.45"
+    "llvmlite>=0.44,<0.45",
     "typing_extensions==4.12.2",
     "tzdata",
     "unicodedata2",
