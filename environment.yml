@@ -1,0 +1,16 @@
+
+name: UAVBiophysicalModelling
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - joblib
+  - pip:
+    - tensorflow>=2.11
+    - keras>=2.11
