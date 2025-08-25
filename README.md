@@ -15,24 +15,30 @@ The library provides:
 
 ## Installation
 
-To use this project, ensure you have Python 3.x installed. Then, clone the repository and install the required dependencies.
+This repository supports both Conda (recommended) and pip installation.
 
-1. Install the repository:
-   ```bash
-   pip install git+https://github.com/UEA-Irta/UAVBiophysicalModelling.git
-   
-
-2. Clone the repository:
+Option 1: Using Conda (recommended)
+1. Clone the repository:
    ```bash
    git clone https://github.com/UEA-Irta/UAVBiophysicalModelling.git
+   cd UAVBiophysicalModelling
+   
 
-
-3. Install dependencies:
+2. Create the conda environment:
    ```bash
-   pip install -r requirements.txt
-   conda env --create -f UAVBiophysicalModelling.yml
-   conda env update -f UAVBiophysicalModelling.yml
+   conda env create -f environment.yml
+   conda activate UAVBiophysicalModelling
 
+
+3. Install the package:
+   ```bash
+   pip install .
+
+
+Option 2: Install directly via pip
+```bash
+pip install git+https://github.com/UEA-Irta/UAVBiophysicalModelling.git
+```
 
 ## Requirements
 
@@ -41,8 +47,7 @@ This project requires the following libraries:
 - `numpy`
 - `pandas`
 - `matplotlib`
-- `scikit-learn`
-- `keras`
+- `tensorflow (includes keras)`
 - `joblib`
 - `geopandas`
 - `rasterio`
