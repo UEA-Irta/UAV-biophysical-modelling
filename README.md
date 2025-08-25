@@ -23,17 +23,14 @@ Option 1: Using Conda (recommended)
    git clone https://github.com/UEA-Irta/UAVBiophysicalModelling.git
    cd UAVBiophysicalModelling
    
-
 2. Create the conda environment:
    ```bash
    conda env create -f environment.yml
    conda activate UAVBiophysicalModelling
 
-
 3. Install the package:
    ```bash
    pip install .
-
 
 Option 2: Install directly via pip
 ```bash
